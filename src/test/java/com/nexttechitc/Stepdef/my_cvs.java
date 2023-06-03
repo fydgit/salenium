@@ -17,7 +17,7 @@ public class my_cvs {
 	WebDriver driver;
 	@Given("^User landing cvs homepage$")
 	public void user_landing_cvs_homepage() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\farja\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe"); 
 		driver=new ChromeDriver();
 		
 		driver.get("https://www.cvs.com/");
